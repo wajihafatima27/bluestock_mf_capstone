@@ -27,3 +27,11 @@
 * live_nav_fetch.py
 * requirements.txt
 * README.md
+
+### Data Quality Summary:
+- All 10 CSV datasets were successfully loaded and inspected.
+- No major structural issues found in schema consistency.
+- Minor missing values observed in few columns, which will be handled in preprocessing stage.
+- Date columns require standardization across datasets.
+- AMFI scheme codes were validated against NAV history and found to be mostly consistent with expected mappings.
+- Overall data is clean enough for downstream ETL and analytics pipeline.
